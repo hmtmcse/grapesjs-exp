@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import './pweb.js'
 
-PWeb.render = function (id) {
+PwebD.render = function (id) {
     createRoot(document.getElementById(id)).render(
         <StrictMode>
             <App/>
@@ -12,4 +12,4 @@ PWeb.render = function (id) {
     )
 }
 
-console.log(PWeb)
+console.log(PwebD)
